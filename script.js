@@ -95,6 +95,5 @@ cardWrapper.style.gap = '30px';
 render(cardArray);
 
 searchBtn.addEventListener('click', () => {
-  console.log('click', searchInput.value);
   render(filteredArray(cardArray, searchInput.value));
 });
